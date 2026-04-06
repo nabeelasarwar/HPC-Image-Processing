@@ -1,0 +1,8 @@
+         2845 function calls in 3.730 seconds
+
+   Ordered by: cumulative time
+   List reduced from 64 to 20 due to restriction <20>
+
+  
+
+
