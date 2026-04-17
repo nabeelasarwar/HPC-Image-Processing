@@ -3,6 +3,26 @@
    Ordered by: cumulative time
    List reduced from 64 to 20 due to restriction <20>
 
-  
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.214    1.214    2.449    2.449 C:\Users\USER\Projects\HPC_Image_Project\profiler.py:11(run_sobel)
+        1    0.000    0.000    1.281    1.281 C:\Users\USER\Projects\HPC_Image_Project\profiler.py:17(run_histogram)
+        2    0.000    0.000    1.235    0.618 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\scipy\ndimage\_filters.py:455(sobel)
+        4    0.000    0.000    1.235    0.309 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\scipy\ndimage\_filters.py:85(correlate1d)
+        4    1.235    0.309    1.235    0.309 {built-in method scipy.ndimage._nd_image.correlate1d}
+        1    0.704    0.704    1.064    1.064 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\lib\_histograms_impl.py:680(histogram)
+     1147    0.209    0.000    0.209    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.030    0.030    0.187    0.187 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\_core\fromnumeric.py:3811(var)
+        1    0.092    0.092    0.157    0.157 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\_core\_methods.py:144(_var)
+      383    0.144    0.000    0.144    0.000 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\lib\_histograms_impl.py:334(_unsigned_subtract)
+      385    0.100    0.000    0.100    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.000    0.000    0.030    0.030 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\_core\fromnumeric.py:3476(mean)
+        1    0.000    0.000    0.030    0.030 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\_core\_methods.py:110(_mean)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\lib\_histograms_impl.py:362(_get_bin_edges)
+      382    0.000    0.000    0.000    0.000 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\_core\multiarray.py:901(bincount)
+        6    0.000    0.000    0.000    0.000 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\scipy\ndimage\_ni_support.py:74(_get_output)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\_core\function_base.py:25(linspace)
+      385    0.000    0.000    0.000    0.000 C:\Users\USER\Projects\HPC_Image_Project\hpc_env\lib\site-packages\numpy\_core\multiarray.py:678(result_type)
+        3    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+       18    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
 
 

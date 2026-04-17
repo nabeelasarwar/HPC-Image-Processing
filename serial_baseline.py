@@ -2,7 +2,7 @@
 # Serial Baseline Script
 # Task A: Sobel Edge Detection
 # Task B: Intensity Histogram
-# No parallelism yet - this is our starting point
+# No parallelism yet - My Starting point
 # =============================================================
 
 import time
@@ -15,7 +15,7 @@ from scipy.ndimage import sobel
 # STEP 1 - Load the image
 # =============================================================
 print("Loading image...")
-img = Image.open("images/test_image.jpg").convert("L")  # convert to grayscale
+img = Image.open("images/test_image.jpg").convert("L")  # convert to grayscale, image took from the folder made
 img_array = np.array(img)
 print(f"Image loaded. Size: {img_array.shape}")
 
